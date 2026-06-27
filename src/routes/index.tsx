@@ -680,12 +680,9 @@ function ErrorView({
 function Footer() {
   return (
     <footer className="border-t border-border/60 py-6 text-center">
-      <a
-        href="mailto:contact@futureagents.ai?subject=Create%20this%20for%20my%20business"
-        className="text-xs text-muted-foreground hover:text-foreground"
-      >
-        ⚡ Powered by Future Agents — <span className="underline">Create this for your business</span>
-      </a>
+      <p className="text-xs text-muted-foreground">
+        ⚡ Powered by Bhavya Rai Batra
+      </p>
     </footer>
   );
 }
@@ -770,7 +767,7 @@ function AdminPanel({
               checked={draft.showFooter}
               onChange={(e) => setDraft({ ...draft, showFooter: e.target.checked })}
             />
-            Show "Powered by Future Agents" footer
+            Show "Powered by Bhavya Rai Batra" footer
           </label>
         </div>
 
