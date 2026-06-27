@@ -767,7 +767,7 @@ function AdminPanel({
               checked={draft.showFooter}
               onChange={(e) => setDraft({ ...draft, showFooter: e.target.checked })}
             />
-            Show "Powered by Future Agents" footer
+            Show "Powered by Bhavya Rai Batra" footer
           </label>
         </div>
 
